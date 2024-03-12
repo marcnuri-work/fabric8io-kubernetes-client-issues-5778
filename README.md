@@ -4,6 +4,11 @@ https://github.com/fabric8io/kubernetes-client/issues/5778
 
 Preparation work for the upcoming release of Fabric8 Kubernetes Client 7.0.0.
 
+## WIP
+
+Currently checking the open issues at Fabric8 Kubernetes Client repository
+Last issue checked in the list (https://github.com/fabric8io/kubernetes-client/issues?page=3&q=is%3Aissue+is%3Aopen): https://github.com/fabric8io/kubernetes-client/issues/4659
+
 ## 6.x Required changes
 
 Additional work for a last minor 6.x release before we start working on version 7.
@@ -13,6 +18,8 @@ Additional work for a last minor 6.x release before we start working on version 
 
 - Migration guide
   - ✅ https://github.com/fabric8io/kubernetes-client/pull/5779
+- `withReadyWaitTimeout` operations (log, exec, upload) can default to 0 instead of 5 and make it opt-in:
+  - https://github.com/fabric8io/kubernetes-client/issues/5782#issuecomment-1985617986
 - Further handling of the CustomResource class
   - https://github.com/fabric8io/kubernetes-client/issues/2829#issuecomment-1197676790
   - HasStatus https://github.com/fabric8io/kubernetes-client/issues/3586<br/>
