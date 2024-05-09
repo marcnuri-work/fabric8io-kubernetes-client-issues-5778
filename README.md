@@ -28,10 +28,6 @@ Additional work for a last minor 6.x release before we start working on version 
     HasSpec https://github.com/fabric8io/kubernetes-client/issues/3816
   - Mark CRD spec as required (HasStatus, HasSpec -marked as required-)<br />
     https://github.com/fabric8io/kubernetes-client/issues/3096
-- OpenShiftMockServer is removed
-  - https://github.com/fabric8io/kubernetes-client/issues/5351
-- SupportTestingClient interface is removed
-  - https://github.com/fabric8io/kubernetes-client/issues/4659
 - Bump OkHttp to latest major (4.x)
   - https://github.com/fabric8io/kubernetes-client/issues/2632
 - Consider Migrating deprecated Felix Annotations to OSGi component Annotations
@@ -49,15 +45,20 @@ Additional work for a last minor 6.x release before we start working on version 
   - https://github.com/fabric8io/kubernetes-client/issues/4164
 - Improve logging configuration experience
   - https://github.com/fabric8io/kubernetes-client/issues/4625
-- Remove (some) deprecated APIs
-  - https://github.com/fabric8io/kubernetes-client/issues/4956
 - Move interceptors to their own package
   - https://github.com/fabric8io/kubernetes-client/issues/5111
-- Remove deprecated Config.errorMessages field
-  - https://github.com/fabric8io/kubernetes-client/issues/5264
-- Remove OpenShift MockServer
-  - https://github.com/fabric8io/kubernetes-client/issues/5351
 - ZJSONPatch
   - https://github.com/fabric8io/kubernetes-client/issues/5480
 - Default owner reference blockOwnerDeletion to true
   - https://github.com/fabric8io/kubernetes-client/issues/5838
+- **Deprecations**
+  - Remove OpenShift MockServer
+    - https://github.com/fabric8io/kubernetes-client/issues/5351
+  - Remove (some) deprecated APIs
+    - https://github.com/fabric8io/kubernetes-client/issues/4956
+  - Remove Service Catalog
+    - https://github.com/fabric8io/kubernetes-client/pull/5990#discussion_r1592809511
+  - Remove deprecated Config.errorMessages field
+    - https://github.com/fabric8io/kubernetes-client/issues/5264
+  - SupportTestingClient interface is removed
+    - https://github.com/fabric8io/kubernetes-client/issues/4659
