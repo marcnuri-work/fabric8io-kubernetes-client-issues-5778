@@ -18,8 +18,8 @@ Additional work for a last minor 6.x release before we start working on version 
   - https://github.com/fabric8io/kubernetes-client/issues/6081
   - https://github.com/fabric8io/kubernetes-client/pull/5965
     - https://github.com/sundrio/sundrio/issues/464#issuecomment-2025563980
-    - https://github.com/sundrio/sundrio/issues/466
-    - https://github.com/sundrio/sundrio/pull/467
+    - ✅ https://github.com/sundrio/sundrio/issues/466
+    - ✅ https://github.com/sundrio/sundrio/pull/467
 - Migration guide
   - ✅ https://github.com/fabric8io/kubernetes-client/pull/5779
 - `withReadyWaitTimeout` operations (log, exec, upload) can default to 0 instead of 5 and make it opt-in:
