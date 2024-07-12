@@ -24,6 +24,12 @@ Additional work for a last minor 6.x release before we start working on version 
   - ✅ https://github.com/fabric8io/kubernetes-client/pull/5779
 - `withReadyWaitTimeout` operations (log, exec, upload) can default to 0 instead of 5 and make it opt-in:
   - https://github.com/fabric8io/kubernetes-client/issues/5782#issuecomment-1985617986
+- Model Generation using OpenAPI
+  - Investigate kubernetes model code generation
+    https://github.com/fabric8io/kubernetes-client/issues/6080
+  - https://github.com/fabric8io/kubernetes-client/issues/6130
+- Use a single `@Resource` annotation (instead of Plural, Group, Kind, etc.) (After Model Generation)
+  - https://github.com/fabric8io/kubernetes-client/issues/4164
 - Further handling of the CustomResource class
   - https://github.com/fabric8io/kubernetes-client/issues/2829#issuecomment-1197676790
   - HasStatus https://github.com/fabric8io/kubernetes-client/issues/3586<br/>
@@ -43,8 +49,6 @@ Additional work for a last minor 6.x release before we start working on version 
   - https://github.com/fabric8io/kubernetes-client/issues/4649
 - After MockWebServer refactor, MockWebServer HTTP/2 support
   - https://github.com/fabric8io/kubernetes-client/issues/4193
-- Use a single `@Resource` annotation (instead of Plural, Group, Kind, etc.)
-  - https://github.com/fabric8io/kubernetes-client/issues/4164
 - Improve logging configuration experience
   - https://github.com/fabric8io/kubernetes-client/issues/4625
 - Move interceptors to their own package
