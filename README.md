@@ -23,6 +23,7 @@ Additional work for a last minor 6.x release before we start working on version 
 - Migration guide
   - ✅ https://github.com/fabric8io/kubernetes-client/pull/5779
 - `withReadyWaitTimeout` operations (log, exec, upload) can default to 0 instead of 5 and make it opt-in:
+  - https://github.com/fabric8io/kubernetes-client/issues/6140
   - https://github.com/fabric8io/kubernetes-client/issues/5782#issuecomment-1985617986
 - Model Generation using OpenAPI
   - Investigate kubernetes model code generation
