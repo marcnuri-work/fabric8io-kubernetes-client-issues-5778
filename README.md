@@ -64,8 +64,13 @@ Additional work for a last minor 6.x release before we start working on version 
   - Remove (some) deprecated APIs
     - https://github.com/fabric8io/kubernetes-client/issues/4956
   - Remove Service Catalog
+    - https://github.com/fabric8io/kubernetes-client/issues/6156
     - https://github.com/fabric8io/kubernetes-client/pull/5990#discussion_r1592809511
   - Remove deprecated Config.errorMessages field
-    - https://github.com/fabric8io/kubernetes-client/issues/5264
+    - ✅ https://github.com/fabric8io/kubernetes-client/issues/5264
   - SupportTestingClient interface is removed
     - https://github.com/fabric8io/kubernetes-client/issues/4659
+  - Remove deprecated methods in IOHelpers class
+    - https://github.com/fabric8io/kubernetes-client/issues/6158
+  - Remove deprecated methods in Utils class
+    - https://github.com/fabric8io/kubernetes-client/issues/6159
