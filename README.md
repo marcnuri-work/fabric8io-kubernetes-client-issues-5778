@@ -75,3 +75,16 @@ Additional work for a last minor 6.x release before we start working on version 
     - https://github.com/fabric8io/kubernetes-client/issues/6158
   - Remove deprecated methods in Utils class
     - https://github.com/fabric8io/kubernetes-client/issues/6159
+
+## Quarkus Migration
+
+https://github.com/quarkusio/quarkus/issues/44899
+
+Initial pull request created by Chris:
+https://github.com/quarkusio/quarkus/pull/42335/
+
+Complete pull request including the changes from Chris:
+https://github.com/quarkusio/quarkus/pull/45259
+
+Pull request merged and released in [3.18.0.CR1](https://github.com/quarkusio/quarkus/milestone/361):
+https://github.com/quarkusio/quarkus/releases/tag/3.18.0.CR1
